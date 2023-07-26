@@ -7,6 +7,10 @@ import CheckoutSteps from '../components/CheckoutSteps'
 import { createOrder } from '../actions/orderActions'
 import { ORDER_CREATE_RESET } from '../constants/orderConstants'
 import { USER_DETAILS_RESET } from '../constants/userConstants'
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-K6EQWD1G62"; // OUR_TRACKING_ID
+
+ReactGA.initialize(TRACKING_ID);
 
 const PlaceOrderScreen = ({ history }) => {
   const dispatch = useDispatch()

@@ -11,6 +11,10 @@ import {
   createProductReview,
 } from '../actions/productActions'
 import { PRODUCT_CREATE_REVIEW_RESET } from '../constants/productConstants'
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-K6EQWD1G62"; // OUR_TRACKING_ID
+
+ReactGA.initialize(TRACKING_ID);
 
 const ProductScreen = ({ history, match }) => {
   const [qty, setQty] = useState(1)

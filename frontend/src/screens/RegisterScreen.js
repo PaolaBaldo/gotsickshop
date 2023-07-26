@@ -6,6 +6,10 @@ import Message from '../components/Message'
 import Loader from '../components/Loader'
 import FormContainer from '../components/FormContainer'
 import { register } from '../actions/userActions'
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-K6EQWD1G62"; // OUR_TRACKING_ID
+
+ReactGA.initialize(TRACKING_ID);
 
 const RegisterScreen = ({ location, history }) => {
   const [name, setName] = useState('')
