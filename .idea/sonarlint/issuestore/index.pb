@@ -1,6 +1,4 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 M
 frontend/src/serviceWorker.js,8\f\8f4c0f5da25e08bd204368d98a3f74d77edd613f
 N
@@ -21,9 +19,5 @@ Y
 )frontend/src/screens/ProductListScreen.js,b\1\b1250011f86c96c08f7dbea34d910e1697fd42e7
 R
 "frontend/src/components/Product.js,2\1\21c55f32b53661be7f452c3c7a2e0d3f0994598d
-U
-%frontend/src/screens/ProductScreen.js,0\1\018da10dbcc652f4d9f5b82874731018ab9f555b
-X
-(frontend/src/screens/PlaceOrderScreen.js,6\9\69f4027c801f4ed718cf35855cf8f79369a6fdf4
 R
 "frontend/src/screens/CartScreen.js,4\6\469cc225c7d6ae044d446eca55903a7fb91b9392
