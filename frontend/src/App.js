@@ -19,7 +19,7 @@ import ProductListScreen from './screens/ProductListScreen'
 import ProductEditScreen from './screens/ProductEditScreen'
 import OrderListScreen from './screens/OrderListScreen'
 import ReactGA from 'react-ga';
-const TRACKING_ID = "G-K6EQWD1G62"; // OUR_TRACKING_ID
+const TRACKING_ID = "G-F3PQBC1Z7F"; // OUR_TRACKING_ID
 
 ReactGA.initialize(TRACKING_ID);
 

@@ -12,7 +12,7 @@ import {
 } from '../actions/productActions'
 import { PRODUCT_CREATE_REVIEW_RESET } from '../constants/productConstants'
 import ReactGA from 'react-ga';
-const TRACKING_ID = "G-K6EQWD1G62"; // OUR_TRACKING_ID
+const TRACKING_ID = "G-F3PQBC1Z7F"; // OUR_TRACKING_ID
 
 ReactGA.initialize(TRACKING_ID);
 
